@@ -13,8 +13,12 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link to="/">Shop</Link>
       </div>
-      <div className={styles.cart}>
-        <Link to="/cart">
+      <div className={styles.links}>
+        <Link to="/" className={styles.navLink}>Home</Link>
+        <Link to="/" className={styles.navLink}>Browse Categories</Link>
+        <Link to="/" className={styles.navLink}>Offers</Link>
+        <Link to="/" className={styles.navLink}>Contact Us</Link>
+        <Link to="/cart" className={styles.cart}>
           <FontAwesomeIcon icon={faShoppingCart} />
           <span className={styles.cartCount}>{totalItems}</span>
         </Link>
