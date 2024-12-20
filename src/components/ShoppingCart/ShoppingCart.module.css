@@ -1,0 +1,137 @@
+.cartPage {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cartItems {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itemDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .itemImage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .itemInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .itemName {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .itemPrice {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .quantitySection {
+    margin-top: 10px;
+  }
+  
+  .quantityInput {
+    padding: 5px;
+    font-size: 1rem;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .removeBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .removeBtn:hover {
+    background-color: #c82333;
+  }
+  
+  .discountSection {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .discountInput {
+    padding: 8px;
+    font-size: 1rem;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .discountBtn {
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .discountBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .discountApplied {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .total p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .emptyCart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+ 

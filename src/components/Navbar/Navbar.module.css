@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .cartCount {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+  
